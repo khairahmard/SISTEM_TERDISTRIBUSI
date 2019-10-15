@@ -1,5 +1,5 @@
 import Pyro4
-from srv.crudnisa import *
+from crudnisa import *
 
 def server():
     #run name server local  pyro4-ns -n localhost -p 7777
